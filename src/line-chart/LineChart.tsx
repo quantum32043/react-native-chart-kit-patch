@@ -823,7 +823,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
     const {
       borderRadius = 0,
       paddingTop = 16,
-      paddingRight = 64,
+      paddingRight = 0,
       margin = 0,
       marginRight = 0,
       paddingBottom = 0

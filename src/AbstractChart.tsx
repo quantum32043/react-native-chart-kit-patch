@@ -36,7 +36,7 @@ export interface AbstractChartConfig extends ChartConfig {
 
 export type AbstractChartState = {};
 
-export const DEFAULT_X_LABELS_HEIGHT_PERCENTAGE = 0;
+export const DEFAULT_X_LABELS_HEIGHT_PERCENTAGE = 0.75;
 
 class AbstractChart<
   IProps extends AbstractChartProps,
