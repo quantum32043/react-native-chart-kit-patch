@@ -849,7 +849,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
       <View style={style}>
         <Svg
           height={height + (paddingBottom as number) + legendOffset}
-          width={width - (margin as number) * 2 - (marginRight as number)}
+          width={width}
         >
           <Rect
             width="100%"
